@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Short Stack;
+    color: #1A1A40;
+}
+
+.full{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/backgroundpm.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.text{
+    width: 400px;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    background-color: rgba(255,255,0,0.5);
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    padding: 5px;
+}
+.btn1:hover{
+    background-color: yellow;
+    border: 5px solid #1A1A40;
+}
+
+.btn2{
+    display: none;
+}
+
+.mainimg{
+    width: 500px;
+    height: auto;
+}
+
+@media (max-width: 400px){
+    .full{
+         background-image: url(images/mob.png);
+}
+.text{
+    width: 250px;
+    height: auto;
+}
+.mainimg{
+    width: 280px;
+    height: auto;
+}
+h1{
+  margin-top: 20px;  
+}
+.btn1{
+    display: none;
+}
+.btn2{
+    display: inline-block;
+    background-color: rgba(255,255,0,0.5);
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.btn2:hover{
+    background-color: yellow;
+    border: 5px solid #1A1A40;
+}
+
+}
